@@ -274,3 +274,18 @@ footer {
     color: var(--color-muted);
     font-size: 0.875rem;
 }
+
+a {
+    background: none;
+    padding: 0;
+    border-radius: 0;
+    display: inline;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 1px;
+}
+
+a:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+}
