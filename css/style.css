@@ -33,4 +33,24 @@ body {
 h1, h2, h3 {
     font-family: var(--font-heading);
     line-height: 1.2;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.25rem;
 }
