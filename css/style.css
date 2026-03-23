@@ -210,3 +210,27 @@ section {
     display: block;
     margin-top: 0.5rem;
 }
+
+.stealth-card {
+    background-color: var(--color-surface);
+    background-image: linear-gradient(90deg, rgba(124, 58, 237, 0.05) 0%, transparent 100%);
+    border: 1px solid var(--color-border);
+    border-left: 4px solid var(--color-accent-2);
+    padding: 3rem;
+    padding-left: 2.5rem;
+}
+
+.stealth-label {
+    color: var(--color-accent-2);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    margin-bottom: 1rem;
+}
+
+.stealth-text {
+    font-style: italic;
+    color: var(--color-text);
+    max-width: 600px;
+    font-size: 1.125rem;
+}
