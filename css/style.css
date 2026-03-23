@@ -234,3 +234,17 @@ section {
     max-width: 600px;
     font-size: 1.125rem;
 }
+
+.stack-row {
+    font-family: var(--font-heading);
+    color: var(--color-accent);
+    font-size: 1.125rem;
+    margin-bottom: 2rem;
+    letter-spacing: 0.02em;
+}
+
+.approach-description {
+    max-width: 600px;
+    color: var(--color-text);
+    font-size: 1.125rem;
+}
