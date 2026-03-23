@@ -8,6 +8,7 @@
     --color-accent-2: #7C3AED;
     --color-text: #E2E8F0;
     --color-muted: #64748B;
+    color-scheme: dark;
 }
 
 *, *::before, *::after {
@@ -73,4 +74,18 @@ h3 {
 
 section {
     padding: 4rem 0;
+}
+
+:focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 4px;
+}
+
+:focus:not(:focus-visible) {
+    outline: none;
+}
+
+::selection {
+    background: var(--color-accent);
+    color: var(--color-bg);
 }
