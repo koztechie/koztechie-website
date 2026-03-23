@@ -235,16 +235,18 @@ section {
     font-size: 1.125rem;
 }
 
-.stack-row {
+.stack-list {
     font-family: var(--font-heading);
     color: var(--color-accent);
-    font-size: 1.125rem;
+    font-size: 1.25rem;
+    margin-top: 2rem;
     margin-bottom: 2rem;
-    letter-spacing: 0.02em;
+    font-weight: 500;
 }
 
-.approach-description {
+.approach-text {
     max-width: 600px;
     color: var(--color-text);
     font-size: 1.125rem;
+    line-height: 1.6;
 }
